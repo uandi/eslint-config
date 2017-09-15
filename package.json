@@ -1,0 +1,48 @@
+{
+    "name": "@uandi/eslint-config-uandi",
+    "version": "0.1.0",
+    "description": "ESLint Configuration for u+i",
+    "main": "index.js",
+    "scripts": {
+        "prelint": "editorconfig-tools check * rules/*",
+        "lint": "eslint .",
+        "test": "npm run --silent lint",
+        "prepublish": "npm test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/uandi/eslint-config-uandi.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "config",
+        "javascript",
+        "styleguide"
+    ],
+    "author": "Niklas Postulart (https://uandi.com)",
+    "contributors": [
+        "Niklas Postulart (https://uandi.com)"
+    ],
+    "license": "ISC",
+    "devDependencies": {
+        "editorconfig-tools": "^0.1.1",
+        "eslint": "^4.6.1",
+        "eslint-find-rules": "^3.1.1",
+        "eslint-plugin-import": "^2.7.0"
+    },
+    "peerDependencies": {
+        "eslint": "^4.6.1",
+        "eslint-plugin-import": "^2.7.0"
+    },
+    "engines": {
+        "node": ">= 4"
+    },
+    "dependencies": {
+        "eslint-restricted-globals": "^0.1.1"
+    },
+    "bugs": {
+        "url": "https://github.com/uandi/eslint-config-uandi/issues"
+    },
+    "homepage": "https://github.com/uandi/eslint-config-uandi#readme"
+}
