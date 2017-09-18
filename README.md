@@ -9,14 +9,14 @@ Install via npm:
 Install the correct versions of each package, which are listed by the command:
 
 ```sh
-npm info "eslint-config-uandi@latest" peerDependencies
+npm info "@uandi/eslint-config-uandi@latest" peerDependencies
 ```
 
 Linux/OSX users can run
 
 ```sh
 (
-    export PKG=eslint-config-uandi;
+    export PKG="@uandi/eslint-config-uandi";
     npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
 )
 ```
@@ -40,10 +40,10 @@ install-peerdeps --dev eslint-config-uandi
 
 Our configuration contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint` and `eslint-plugin-import`.
 
-Add `"extends": "uandi"` to your .eslintrc
+Add `"extends": "@uandi/eslint-config-uandi"` to your .eslintrc
 
 ### eslint-config-uandi/legacy
 
 Lints ES5 and below. Requires `eslint` and `eslint-plugin-import`.
 
-Add `"extends": "uandi/legacy"` to your .eslintrc
+Add `"extends": "@uandi/eslint-config-uandi/legacy"` to your .eslintrc
