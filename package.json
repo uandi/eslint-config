@@ -1,6 +1,6 @@
 {
-    "name": "@uandi/eslint-config-uandi",
-    "version": "0.1.1",
+    "name": "@uandi/eslint-config",
+    "version": "0.2.0",
     "description": "ESLint Configuration for u+i",
     "main": "index.js",
     "scripts": {
@@ -27,12 +27,12 @@
     "license": "ISC",
     "devDependencies": {
         "editorconfig-tools": "^0.1.1",
-        "eslint": "^4.6.1",
+        "eslint": "^4.9.0",
         "eslint-find-rules": "^3.1.1",
         "eslint-plugin-import": "^2.7.0"
     },
     "peerDependencies": {
-        "eslint": "^4.6.1",
+        "eslint": "^4.9.0",
         "eslint-plugin-import": "^2.7.0"
     },
     "engines": {

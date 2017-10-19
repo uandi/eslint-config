@@ -38,7 +38,7 @@ module.exports = {
             objects: 'always-multiline',
             imports: 'always-multiline',
             exports: 'always-multiline',
-            functions: 'always-multiline',
+            functions: 'never',
         }],
 
         // enforce consistent spacing before and after commas
