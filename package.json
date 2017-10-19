@@ -1,6 +1,6 @@
 {
     "name": "@uandi/eslint-config",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "ESLint Configuration for u+i",
     "main": "index.js",
     "scripts": {
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/uandi/eslint-config-uandi.git"
+        "url": "git+https://github.com/uandi/eslint-config.git"
     },
     "keywords": [
         "eslint",
@@ -42,7 +42,7 @@
         "eslint-restricted-globals": "^0.1.1"
     },
     "bugs": {
-        "url": "https://github.com/uandi/eslint-config-uandi/issues"
+        "url": "https://github.com/uandi/eslint-config/issues"
     },
-    "homepage": "https://github.com/uandi/eslint-config-uandi#readme"
+    "homepage": "https://github.com/uandi/eslint-config#readme"
 }
