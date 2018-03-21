@@ -36,14 +36,20 @@ install-peerdeps --dev @uandi/eslint-config
 
 ## Usage
 
-### eslint-config-uandi
+### @uandi/eslint-config
 
 Our configuration contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint` and `eslint-plugin-import`.
 
 Add `"extends": "@uandi/eslint-config"` to your .eslintrc
 
-### eslint-config-uandi/legacy
+### @uandi/eslint-config/legacy
 
 Lints ES5 and below. Requires `eslint` and `eslint-plugin-import`.
 
 Add `"extends": "@uandi/eslint-config/legacy"` to your .eslintrc
+
+### @uandi/eslint-config/whitespace
+
+Errors only on whitespace rules and sets all other rules to warning.
+
+Add `"extends": "@uandi/eslint-config/whitespace"` to your .eslintrc

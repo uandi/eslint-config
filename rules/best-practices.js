@@ -4,7 +4,7 @@ module.exports = {
         'accessor-pairs': 'off',
 
         // enforces return statements in callbacks of array's methods
-        'array-callback-return': 'error',
+        'array-callback-return': ['error', { allowImplicit: true }],
 
         // enforce the use of variables within the scope they are defined
         'block-scoped-var': 'error',
@@ -51,7 +51,7 @@ module.exports = {
         'no-div-regex': 'off',
 
         // disallow else blocks after return statements in if statements
-        'no-else-return': 'error',
+        'no-else-return': ['error', { allowElseIf: false }],
 
         // disallow empty functions
         'no-empty-function': ['error', {
